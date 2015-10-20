@@ -14,3 +14,18 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('contact', [
+    'as' => 'contact',
+    'uses' => 'ContactController@index'
+]);
+
+Route::get('contact/delete/{id}', [
+    'as' => 'contact/delete',
+    'uses' => 'ContactController@destroy'
+]);
+
+Route::get('contact/restore/{id}', [
+    'as' => 'contact/restore',
+    'uses' => 'ContactController@restore'
+]);
