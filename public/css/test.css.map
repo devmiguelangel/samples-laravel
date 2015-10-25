@@ -1,0 +1,1 @@
+{"version":3,"sources":["test.styl","test.css"],"names":[],"mappings":"AAEA;EACE,uCAAA;CCDD","file":"test.css","sourcesContent":["font-size = 14px\n\nbody\n  font font-size 'Lucida Grande', sans-serif","body {\n  font: 14px 'Lucida Grande', sans-serif;\n}\n"],"sourceRoot":"/source/"}
